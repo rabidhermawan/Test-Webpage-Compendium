@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.navButton, .navElem a{
+    font-family: "Merriweather";
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.navMain{
+    min-width: 678px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 10% 30px;
+}
+.navLogo { 
+    cursor: pointer;
+    margin-right: auto;
+    font-family: "Arizonia";
+    font-size: 30px;
+    /* height: 50px; */
+}
+
+.navList{
+    list-style: none;
+}
+.navList li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+.navElem a:hover {
+    color:rgb(121,215,253);
+    transition: all 0.3s ease 0s;
+}
+
+.footMain {
+    min-width: 678px;
+    display: flex;
+    margin-top: auto;
+    justify-content:center;
+    align-items: center;
+    padding: 30px 0px 0px 0px;
+
+}
+.footList {
+    list-style: none;
+    padding: 0px 0px 20px
+}
+.footList li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+.footText {
+    font-family: "Merriweather";
+    color: white;
+}
+.socialIcon {
+    height: 50px;   
+    border-radius: 100%;
+    transition: .2s;
+}
+.socialIcon:hover {
+    cursor: pointer;
+    border-color: red;
+}
+/* Effects and shit, might move it to somewhere else*/
+
+.shadowMed {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.shadowLight {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.shadowLarge{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.minSize {
+    min-width: 678px;
+}
+
+.roundedCorner {
+    border-radius: 16px;
+}
+
+.orbitron {
+    font-family: "Orbitron";
+}
