@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Compendium</title>
     <link rel="icon" type="image/x-icon" href="../images/VelvetRoomSymbol_White.svg">
-
+    
     <link rel="stylesheet" href="../css/basePage.css">
     <link rel="stylesheet" href="../css/navbarFooter.css">
     <link rel="stylesheet" href="../css/cards.css">
@@ -23,8 +23,30 @@
         <!-- <a href="pages/fortune.html"><button class="navButton">Hello Sigma</button></a> -->
     </header>
 
-    <h1 class="subHeader">Work in Progress</h1>
     <a href="../index.html"><button class="button redBg">Return to Home</button></a>
+    
+    <!--Game Display-->
+    <h1 class="subHeader">Rock paper scissor</h1>
+    <p class="footText" id="roundsLeft"></p>
+    <p class="footText">Select your choice : </p>
+    <form>
+        <input type="radio" id="rpsInput" name="rps-input" value="rock">
+        <label class="footText" for="rockInput">Rock</label>
+        <br>
+
+        <input type="radio" id="rpsInput" name="rps-input" value="paper">
+        <label class="footText" for="paperInput">Paper</label>
+        <br>
+
+        <input type="radio" id="rpsInput" name="rps-input" value="scissor">
+        <label class="footText" for="scissorInput">Scissor</label>
+        <br>
+    </form>
+    <button class="button redBg" id="submit"></button> 
+    <button class="button redBg" id="resetPlay"></button>
+    <p class="footText" id="scoreboard"></p>
+    <p class="footText" id="testDisplay"></p>
+
 
     <footer class="footMain">
         <section class="footSocial">
@@ -36,5 +58,7 @@
            <h5 class="footText">&copy;2024 R. Abid Hermawan</h2>
         </section>
     </footer>
+
+    <script src="js/rpsInput.js"></script>
 </body>
 </html>
